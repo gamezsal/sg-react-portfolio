@@ -1,9 +1,9 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 function Profile(props) {
   return (
-    <div className="hero text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
+    <div className="profile text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
       {props.children}
     </div>
   );
