@@ -3,11 +3,12 @@ import ProfilePic from "../components/Profile";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Image from "../assets/images/backgroundImage.jpg"
 
 function About() {
   return (
     <div>
-      <ProfilePic backgroundImage="https://imgur.com/goWvcQQ">
+      <ProfilePic backgroundImage={Image}>
         <h1>Salvador Gamez</h1>
         <h2>Solving Problems one at a time</h2>
       </ProfilePic>
