@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About"
 import Projects from "./pages/Projects"
+import Personal from "./pages/Personal"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
-          {/* <Route exact path="/personal" component={Personal} /> */}
+          <Route exact path="/personal" component={Personal} />
         </Wrapper>
         <Footer />
       </div>
