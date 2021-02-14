@@ -3,7 +3,7 @@ import ProfilePic from "../components/Profile";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Image from "../assets/images/backgroundImage.jpg"
+import Image from "../images/about/backgroundImage.jpg"
 
 function About() {
   return (

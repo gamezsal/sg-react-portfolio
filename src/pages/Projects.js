@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Project1 from "../assets/images/WeatherDashboard.jpg";
-import Project2 from "../assets/images/scheduler.jpg";
-import Project3 from "../assets/images/passwordgenerator.jpg";
-import Project4 from "../assets/images/notetaker.JPG";
+import Project1 from "../images/projects/WeatherDashboard.jpg";
+import Project2 from "../images/projects/scheduler.jpg";
+import Project3 from "../images/projects/passwordgenerator.jpg";
+import Project4 from "../images/projects/notetaker.JPG";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
