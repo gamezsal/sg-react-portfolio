@@ -10,7 +10,7 @@ function About() {
     <div>
       <ProfilePic backgroundImage={Image}>
         <h1>Salvador Gamez</h1>
-        <h2>Solving Problems one at a time</h2>
+        <h2>Customer's are the HEROES</h2>
       </ProfilePic>
       <Container style={{ marginTop: 30 }}>
         <Row>
