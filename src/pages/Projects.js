@@ -5,10 +5,19 @@ import Project1 from "../images/projects/WeatherDashboard.jpg";
 import Project2 from "../images/projects/scheduler.jpg";
 import Project3 from "../images/projects/passwordgenerator.jpg";
 import Project4 from "../images/projects/notetaker.JPG";
-import Image from 'react-bootstrap/Image'
-import Button from 'react-bootstrap/Button'
+import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
+import '../index.css'
+// import WebFontLoader from 'webfontloader'
 
-
+// WebFontLoader.load({
+//   google: {
+//     families: [
+//       'Roboto:400,500,700:latin-ext',
+//       'Merriweather:400,700:latin-ext',
+//     ]
+//   }
+// })
 
 
 function ControlledCarousel() {
