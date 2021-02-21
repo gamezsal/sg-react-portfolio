@@ -45,6 +45,7 @@ function About() {
               development?” Hit me up! I'm looking for my next
               opportunity.
             </p>
+
           </Col>
         </Row>
       </Container>

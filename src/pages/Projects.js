@@ -8,16 +8,6 @@ import Project4 from "../images/projects/notetaker.JPG";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import '../index.css'
-// import WebFontLoader from 'webfontloader'
-
-// WebFontLoader.load({
-//   google: {
-//     families: [
-//       'Roboto:400,500,700:latin-ext',
-//       'Merriweather:400,700:latin-ext',
-//     ]
-//   }
-// })
 
 
 function ControlledCarousel() {
@@ -44,8 +34,8 @@ function ControlledCarousel() {
         alt="WeatherDashboard"
          />
         <Carousel.Caption>
-          <h3 style={{color: "Blue"}}>Weather Dashboard Demo</h3>
-          <Button variant="outline-primary" style={{color: "Blue"}} href="https://gamezsal.github.io/06WeatherDashboard/" target="_blank">Click</Button>
+          <h3 style={{color: "DarkTurquoise"}}>Weather Dashboard Demo</h3>
+          <Button variant="outline-dark" style={{color: "DarkTurquoise"}} href="https://gamezsal.github.io/06WeatherDashboard/" target="_blank">Click</Button>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -56,8 +46,8 @@ function ControlledCarousel() {
           alt="WorkDay Scheduler"
         />
         <Carousel.Caption>
-          <h3 style={{color: "Blue"}}>WorkDay Scheduler Demo</h3>
-          <Button variant="outline-primary" style={{color: "Blue"}} href="https://gamezsal.github.io/05-Third-Party-APIs-Work-Day-Scheduler/" target="_blank">Click</Button>
+          <h3 style={{color: "DarkTurquoise"}}>WorkDay Scheduler Demo</h3>
+          <Button variant="outline-dark" style={{color: "DarkTurquoise"}} href="https://gamezsal.github.io/05-Third-Party-APIs-Work-Day-Scheduler/" target="_blank">Click</Button>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -68,8 +58,8 @@ function ControlledCarousel() {
           alt="Password Generator"
         />
         <Carousel.Caption>
-          <h3 style={{color: "Blue"}}>Password Generator Demo</h3>
-          <Button variant="outline-primary" style={{color: "Blue"}} href="https://gamezsal.github.io/03-PasswordGenerator/" target="_blank">Click</Button>
+          <h3 style={{color: "DarkTurquoise"}}>Password Generator Demo</h3>
+          <Button variant="outline-dark" style={{color: "DarkTurquoise"}} href="https://gamezsal.github.io/03-PasswordGenerator/" target="_blank">Click</Button>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -79,8 +69,8 @@ function ControlledCarousel() {
         src={Project4} 
         alt="Note Taker" />
         <Carousel.Caption>
-          <h3 style={{color: "Blue"}}>Note Taker Demo</h3>
-          <Button variant="outline-primary" style={{color: "Blue"}} href="https://immense-mesa-82456.herokuapp.com/"target="_blank">Click</Button>
+          <h3 style={{color: "DarkTurquoise"}}>Note Taker Demo</h3>
+          <Button variant="outline-dark" style={{color: "DarkTurquoise"}} href="https://immense-mesa-82456.herokuapp.com/"target="_blank">Click</Button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

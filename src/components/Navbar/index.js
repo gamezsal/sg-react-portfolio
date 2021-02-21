@@ -5,7 +5,7 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-dark bg-secondary navbar-expand-md ">
       <Link className="navbar-brand" to="/">
         Sal Gamez
       </Link>
