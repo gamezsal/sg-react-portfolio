@@ -12,11 +12,4 @@ code {
     monospace;
 }
 
-@font-face {
-  font-family: 'Lato-Light';
-  src: local('Lato-Light'), url(./fonts/Lato-Light.ttf) format('truetype');
-}
 
-h1 {
-  font-family: 'Lato-Light';
-}
