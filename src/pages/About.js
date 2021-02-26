@@ -7,17 +7,21 @@ import "./style.css";
 
 function About() {
   return (
-    <div>
+      <>
       <ProfilePic backgroundImage={Image}>
         <h1>Salvador Gamez</h1>
         <h2>Customer's are the HEROES</h2>
       </ProfilePic>
-      <Container style={{ marginTop: 30 }}>
+
+      <Container>
         <Row>
           <Col size="md-12">
             <h1>Welcome To My Page Everyone!</h1>
           </Col>
         </Row>
+        </Container>
+
+        <Container>
         <Row>
           <Col size="md-12">
             <p>“None of us are as smart as all of us” Dr. Ken Blanchard</p>
@@ -48,7 +52,7 @@ function About() {
           </Col>
         </Row>
       </Container>
-    </div>
+    </>
   );
 }
 

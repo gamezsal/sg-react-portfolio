@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row } from "../components/Grid"
+import { Row, Container } from "../components/Grid"
 import Contact from "../components/Contact";
 import Carousel from "react-bootstrap/Carousel";
 import Jumbotron from "react-bootstrap/Jumbotron";
@@ -24,7 +24,7 @@ function ControlledCarousel() {
     <>
   
       <Jumbotron>
-      <div>
+      <Container>
         <h1>
           Full Stack Projects
         </h1>
@@ -33,13 +33,16 @@ function ControlledCarousel() {
           NodeJS, JavaScript, HTML, CSS, React, SQL, MongoDB. Feel to take a
           look at some of my projects and reach out with any questions. Click below to see the live demo!
         </p>  
-      </div>
+        
         <Row>
           <Contact/>
         </Row>
+        </Container>
       </Jumbotron>
      
+     <Container>
       <Carousel activeIndex={index} onSelect={handleSelect}>
+        
         <Carousel.Item>
           <Image
             className="d-block w-100"
@@ -138,7 +141,7 @@ function ControlledCarousel() {
 
       </Carousel>
 
-      
+      </Container>      
     </>
   );
 }

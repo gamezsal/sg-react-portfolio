@@ -12,9 +12,11 @@ import Wrapper from "./components/Wrapper";
 
 
 function App() {
+  
   return (
+    
     <Router>
-      <div>
+      <div className="container">
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={About} />
@@ -25,6 +27,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    
   );
 }
 

@@ -12,3 +12,7 @@ h3, h1, p, h2{
   font-family: "Lato-Light";
   color:darkslateblue;
 }
+
+.aboutpage {
+  padding: 75%
+}

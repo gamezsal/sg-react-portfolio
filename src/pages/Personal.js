@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { Row } from "../components/Grid"
+import { Row, Container } from "../components/Grid"
 import Jumbotron from "react-bootstrap/Jumbotron";
 import CardDeck from "react-bootstrap/CardDeck";
 import Image1 from "../images/personal/fam1.jpg";
@@ -12,9 +12,9 @@ import "./style.css"
 
 function Personal() {
   return (
-    <>
+      <>
       <Jumbotron>
-        <div>
+        <Container>
           <h1>Gamez Family Pics</h1>
           <p>
             My family enjoys traveling and seeing new places. We love the beach
@@ -24,10 +24,12 @@ function Personal() {
           <Row>
           <Contact/>
         </Row>
-        </div>
+        </Container>
       </Jumbotron>
-
+     
+      <Container>
       <CardDeck>
+      
         <Card>
           <Card.Img variant="top" src={Image1} />
           <Card.Body>
@@ -38,7 +40,7 @@ function Personal() {
             <small className="text-muted"></small>
           </Card.Footer>
         </Card>
-
+       
         <Card>
           <Card.Img variant="top" src={Image2} />
           <Card.Body>
@@ -72,7 +74,8 @@ function Personal() {
           </Card.Footer>
         </Card>
       </CardDeck>
-    </>
+      </Container>
+   </>
   );
 }
 
