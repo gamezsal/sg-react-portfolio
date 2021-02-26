@@ -1,33 +1,32 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import About from "./pages/About"
-import Projects from "./pages/Projects"
-import Personal from "./pages/Personal"
-import Navbar from "./components/Navbar";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Personal from "./pages/Personal";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
 import Wrapper from "./components/Wrapper";
-  
+
 // import logo from './logo.svg';
 // import './App.css';
 
-
 function App() {
-  
   return (
-    
-    <Router>
-      <div className="container">
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/personal" component={Personal} />
-        </Wrapper>
-        <Footer />
-      </div>
-    </Router>
-    
+    <>
+      <Router>
+        <div className="container">
+          <Navbar />
+          <Wrapper>
+            <Route exact path="/" component={About} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/personal" component={Personal} />
+          </Wrapper>
+          <Footer />
+        </div>
+      </Router>
+    </>
   );
 }
 

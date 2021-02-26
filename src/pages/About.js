@@ -5,6 +5,7 @@ import { Row, Container, Col } from "../components/Grid";
 import Image from "../images/about/backgroundImage.jpg";
 import "./style.css";
 
+
 function About() {
   return (
       <>
@@ -52,6 +53,7 @@ function About() {
           </Col>
         </Row>
       </Container>
+   
     </>
   );
 }

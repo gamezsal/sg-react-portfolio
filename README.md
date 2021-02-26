@@ -98,5 +98,24 @@ At a minimum, your portfolio should include the following:
 
 Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
 
+## Submission on BCS
+
+You are required to submit the following: 
+
+* the URL to the deployed application: https://secure-woodland-41012.herokuapp.com/
+
+
+* the URL to the Github repository: https://github.com/gamezsal/sg-react-portfolio
+
+## Usage
+
+
+
+## Live Deployment Recorded Demo
+
+https://drive.google.com/file/d/1JFtVH9jrCbsE7g9lcoOE7ShYVOeYwV2R/view
+
+![](public/React.gif)
+
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
