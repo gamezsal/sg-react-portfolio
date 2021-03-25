@@ -29,7 +29,7 @@ function About() {
             <p>
               My name is Sal, I'm a customer advocate who enjoys solving complex
               problems and I love learning new things hence why I decided to take
-              on a Full Stack Develop BootCamp with the University of Utah. I have
+              a Full Stack Develop BootCamp course with the University of Utah. I have
               several years experience in agile development, experience working
               with engineering teams building and releasing great products to
               the market. Certifications in SAFe Agile practices as a Product
