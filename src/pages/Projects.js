@@ -128,7 +128,7 @@ function ControlledCarousel() {
                   <h3>Fitness Tracker Demo</h3>
                   <Button
                     variant="outline-dark"
-                    href="https://protected-beach-69661.herokuapp.com/"
+                    href="https://fitnesstrack-72224626be68.herokuapp.com/"
                     target="_blank"
                   >
                     Click
