@@ -146,7 +146,7 @@ function ControlledCarousel() {
                   <h3>Budget Tracker Demo</h3>
                   <Button
                     variant="outline-dark"
-                    href="https://salty-cove-28019.herokuapp.com/"
+                    href="https://budgettrackerpwa-97b8f03d96c3.herokuapp.com/"
                     target="_blank"
                   >
                     Click
