@@ -110,7 +110,7 @@ function ControlledCarousel() {
                   <h3>Note Taker Demo</h3>
                   <Button
                     variant="outline-dark"
-                    href="https://immense-mesa-82456.herokuapp.com/"
+                    href="https://notetakerpwa-870de1bdb1ea.herokuapp.com/"
                     target="_blank"
                   >
                     Click
